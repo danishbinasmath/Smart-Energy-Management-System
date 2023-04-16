@@ -1,4 +1,4 @@
-###Title: Smart Energy Management System
+<h1>Title: Smart Energy Management System</h1>
 
 Description: The project aims to develop a web-based platform that uses AI/ML algorithms to optimize energy consumption in homes and buildings. The platform will collect energy usage data from connected devices, analyze it using AI/ML algorithms, and provide recommendations to users on how to reduce energy consumption and costs.
 
