@@ -2,7 +2,7 @@
 
 Description: The project aims to develop a web-based platform that uses AI/ML algorithms to optimize energy consumption in homes and buildings. The platform will collect energy usage data from connected devices, analyze it using AI/ML algorithms, and provide recommendations to users on how to reduce energy consumption and costs.
 
-##Features:
+<h2>Features:</h2>
 
 User registration and login system
 Dashboard displaying real-time energy usage data and recommendations for energy savings
@@ -13,7 +13,7 @@ Notifications to alert users when energy usage is high and provide suggestions f
 Integration with energy providers to provide cost-saving recommendations based on electricity pricing plans
 Admin panel for managing users and devices
 
-##Technologies:
+<h2>Technologies:</h2>
 
 Web development: HTML, CSS, JavaScript, ReactJS
 Backend development: Node.js, Express.js, MongoDB
