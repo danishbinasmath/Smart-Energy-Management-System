@@ -1,0 +1,140 @@
+.navbar {
+    background-color: #4CAF50;
+    /* light forest green */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    /* push items to the right */
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.hero {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    /* light forest green */
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+    /* darker green on hover */
+}
+
+.features {
+    background-color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.features h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.feature {
+    margin-bottom: 3rem;
+}
+
+.feature i {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    color: #4CAF50;
+    /* light forest green */
+}
+
+.feature h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.feature p {
+    font-size: 1.5rem;
+}
+
+.footer {
+    background-color: #4CAF50;
+    /* light forest green */
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-nav {
+        margin-top: 1rem;
+        margin-left: 0;
+        /* reset margin for mobile view */
+    }
+
+    .nav-item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .feature i {
+        font-size: 4rem;
+    }
+
+    .feature h3 {
+        font-size: 1.8rem;
+    }
+
+    .feature p {
+        font-size: 1.2rem;
+    }
+}
